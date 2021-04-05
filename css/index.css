@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@600&display=swap');
+
+/*-------------------GRID SYSTEM--------------*/
+.container{
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(5,1fr);
+    /*min max( 200px, 300px); in the fraction*/
+    width: 100%;
+    height: 100vh;
+}
+*{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heroContainer{
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+.menuContainer{
+    grid-column: 3 / 6;
+    grid-row: 1; 
+}
+.enigma{
+    grid-column: 3 / 6;
+    grid-row: 2 / 4;
+    font-family: 'Vollkorn', serif;
+}
+.menuText{
+    display: none;
+}
+
+/*---------------STYLES ENIGMA--------------*/
+.enigma h1{
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+}
+.enigma h4{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.menuContainer, .enigma {
+    background: black;
+    color: white;
+    height: 101%;
+    width: 100%;
+}
+.heroContainer{
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+/*---------------STYLES HERO--------------*/
+.heroContainer{
+    display: flex;
+    justify-content: center;
+}
+.heroImage{
+    width: 250px;
+}
+
+/*-------------ANIMATION MENU-------------*/
+.fullMenu{
+    color: white;
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fullMenu ul li {
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    list-style: none;
+    width: 300px;
+    /* border-bottom:  2px solid white; */
+    margin-bottom: 50px; 
+    margin-top: 50px; 
+}
+.container .menuContainer{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.container .menuContainer .menu{
+    position: relative;
+    transform: translate(-120%, 0%);
+    width: 60px;
+    height: 100px;
+    cursor: pointer;
+    top: 3px;
+    z-index: 1;
+}
+.container .menuContainer .menu .line{
+    position: absolute;
+    width: 90px;  
+    transition: all .3s;
+}
+.container .menuContainer .menu .line1{top: 0%;}
+.container .menuContainer .menu .line2{top: 30%;}
+.container .menuContainer .menu .line3{top: 60%;}
+
+.container .menuContainer .menu.close .line1{
+    transform: rotate(45deg) ;
+    top: 30%;
+}
+
+.container .menuContainer .menu.close .line2{
+    transform: rotate(45deg) ;
+    top: 30%;
+}
+
+.container .menuContainer .menu.close .line3{
+    transform: rotate(-45deg) ;
+    top: 30%;
+} 
