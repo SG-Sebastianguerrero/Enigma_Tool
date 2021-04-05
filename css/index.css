@@ -28,6 +28,7 @@
     grid-column: 3 / 6;
     grid-row: 2 / 4;
     font-family: 'Vollkorn', serif;
+    letter-spacing: 1px;
 }
 .menuText{
     display: none;
