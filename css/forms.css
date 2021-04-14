@@ -18,15 +18,32 @@
 }
 .menuContainer{
     grid-column: 1 / 6;
-    grid-row: 1; 
+    grid-row: 1 / 2;
     background: black;
     height: 100%;
+    z-index: 1;
 }
 .health{
-    grid-column: 1 / 6;
-    grid-row: 4 / 10; 
+    grid-column: 3 / 6;
+    grid-row: 4 / 10;
     width: 100%;
     height: 100vh;
+}
+.formSurvey{
+    display: flex;
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.calendar{
+    grid-column: 1 / 3;
+    grid-row: 6 / 11;
+    background: black;
+    width: 100%;
+    height: 100%;
 }
 /*---------ANIMATION MENU-----------------*/
 

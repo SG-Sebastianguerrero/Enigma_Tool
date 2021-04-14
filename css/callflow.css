@@ -107,3 +107,22 @@ a:hover{
     /* background-size: 660px; */
     background-size: cover;
 }
+
+/*------------Table Callflow---------------*/
+.tableCallflow{
+    display: block;
+    grid-column: 1 / 6;
+    grid-row: 2 / 11;
+    border-collapse: collapse;
+    height: 80vh;
+}
+.tr , td{
+    border: black 5px solid;
+}
+.td{
+    width: 40px;
+    margin: 0;
+}
+ select{
+    grid-column: 2 / 4;
+} 
