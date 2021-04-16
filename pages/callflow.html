@@ -29,161 +29,183 @@
         <table class="tableCallflow">
             
             <form class="callflow" action="#">
+
+
                 <tr class="filas">
                     <div id="opening">
                         <td class="columna1">
                             <h1>OPEN AND GREAT TO THE CUSTOMER</h1>
-                            <h4>Saludar al cliente dentro de los primeros minutos</h4>
+                            <h4>(0-1min) Saludar al cliente dentro de los primeros minutos</h4>
                         </td>
                         <td class="columna2">
-                            <label>
-                                <input type="radio" name="color" value="azul"> Azul
-                            </label>
-                            <label>
-                                <input type="radio" name="color" value="azul"> verde
-                            </label>
-                            <label>
-                                <input type="radio" name="color" value="azul"> rojo
-                            </label>
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q1Radio1" value="1"> 
+                                    Gracias por tu amable tiempo de espera. Buen día 
+                                    hablas con ______ de Apple Care, con quien tengo 
+                                    el gusto de hablar?.
+                                </label>
+                                <label>
+                                    <input type="radio" name="q1Radio2" value="2">
+                                    Que gusto escucharte, como estas el día de hoy?
+                                </label>
+                                <label>
+                                    <input type="radio" name="q1Radio3" value="3">
+                                    Bienvenido, cuéntame en que te puedo ayudar?
+                                </label>
+                            </li>
                         </td>
                     </div>
                 </tr>
+
+
                 <tr class="filas">
                     <div id="acknowledge">
                         <td class="columna1">
                             <h1>ACKNOWLEDGE AND RELATE</h1>
-                            <h4>Entender el problema y parafrasearlo</h4>
+                            <h4>(1-2min) Entender el problema y parafrasearlo</h4>
                         </td>
                         <td class="columna2">
-                            <label>
-                                <input type="radio" name="black" value="azul"> black
-                            </label>
-                            <label>
-                                <input type="radio" name="black" value="azul"> black
-                            </label>
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q2ingRadio1" value="1"> 
+                                    Entiendo la importancia que tiene para ti ________
+                                    Sé que los dispositivos son importantes hoy en día.     
+                                </label>
+                                <label>
+                                    <input type="radio" name="q2ingRadio2" value="2"> 
+                                     También he pasado por esto antes…
+                                </label>
+                                <label>
+                                    <input type="radio" name="q2ingRadio3" value="3 "> 
+                                     Vamos a trabajar juntos para ayudarte….
+                                </label>
+                            </li>
                         </td>
                     </div>
                 </tr>
-<!--                 <tr>
+
+                <tr class="filas">
                     <div id="assure">
-                        <td>
-                            <h1>Assure and validate information</h1>
-                            <h4>Decirle que lo vas a ayudar</h4>
+                        <td class="columna1">
+                            <h1>ASSURE & CONTACT INFORMATION</h1>
+                            <h4>(1-2min) Decir te voy a ayudar y pedir la informacion</h4>
                         </td>
-                        <td>
-                            <select name="select">
-                                <option value="value1">Value 1</option>
-                                <option value="value2">Value 2</option>
-                                <option value="value3">Value 3</option>
-                            </select>
-                        </td>
-                        <td>
-                            <div class="definition">
-                                <input type="text" name="" id="" placeholder="Ejemplo que escogiste">
-                            </div>
-                        </td>
-                    </div>
-                </tr>
-                <tr>
-                    <div id="empathy">
-                        <td>
-                            <h1>Empathy</h1>
-                            <h4>Decirle que entiendes lo importante que es para el</h4>
-                        </td>
-                        <td>
-                            <select name="select">
-                                <option value="value1">Value 1</option>
-                                <option value="value2">Value 2</option>
-                                <option value="value3">Value 3</option>
-                            </select>
-                        </td>
-                        <td>
-                            <div class="definition">
-                                <input type="text" name="" id="">
-                            </div>
+                        <td class="columna2">
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q3Radio1" value="1"> 
+                                      No te preocupes, te voy a ayudar para que 
+                                      encontremos la mejor solución para ti
+                                </label>
+                                <label>
+                                    <input type="radio" name="q3Radio2" value="2">
+                                     Me podrías brindar un email donde pueda 
+                                     enviarte toda la información de tu caso
+                                </label>
+                            </li>
                         </td>
                     </div>
                 </tr>
-                <tr>
+
+                <tr class="filas">
                     <div id="probing">
-                        <td>
-                            <h1>Probing questions and explore</h1>
-                            <h4>Haz preguntas para aislar el inconveniente</h4>
+                        <td class="columna1">
+                            <h1>PROBING QUESTIONS</h1>
+                            <h4>(2-3min) Haz preguntas para saber que ocurre para saber como resolverlo</h4>
                         </td>
-                        <td>
-                            <select name="select">
-                                <option value="value1">Value 1</option>
-                                <option value="value2">Value 2</option>
-                                <option value="value3">Value 3</option>
-                            </select>
-                        </td>
-                        <td>
-                            <div class="definition">
-                                <input type="text" name="" id="">
-                            </div>
-                        </td>
-                    </div>
-                </tr>
-                <tr>
-                    <div id="setExpectations">
-                        <td>
-                            <h1>Set expectations</h1>
-                            <h4>Brindale una expectativa de lo que puede ocurrir</h4>
-                        </td>
-                        <td>
-                            <select name="select">
-                                <option value="value1">Value 1</option>
-                                <option value="value2">Value 2</option>
-                                <option value="value3">Value 3</option>
-                            </select>
-                        </td>
-                        <td>
-                            <div class="definition">
-                                <input type="text" name="" id="">
-                            </div>
+                        <td class="columna2">
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q4Radio1" value="1"> 
+                                    Que ves en la pantalla? - Mensaje exacto <br>
+                                    Hace cuanto te sucede? <br>
+                                    Si ha hecho algo para resolverlo? <br>
+                                    Despues de que te paso esto? <br>
+                                    A que deseas acceder con tu…? <br>
+                                </label>
+                            </li>
                         </td>
                     </div>
                 </tr>
-                <tr>
-                    <div id="Troubleshooting">
-                        <td>
-                            <h1>Troubleshooting</h1>
-                            <h4>Haz los pasos que el articulo/s dice</h4>
+
+                <tr class="filas">
+                    <div id="logging">
+                        <td class="columna1">
+                            <h1>LOGGING</h1>
+                            <h4>(2-4min) Responde las trigger questions y linkea articulos</h4>
                         </td>
-                        <td>
-                            <select name="select">
-                                <option value="value1">Value 1</option>
-                                <option value="value2">Value 2</option>
-                                <option value="value3">Value 3</option>
-                            </select>
-                        </td>
-                        <td>
-                            <div class="definition">
-                                <input type="text" name="" id="">
-                            </div>
+                        <td class="columna2">
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q5Radio1" value="1"> 
+                                    Para esta parte de la llamada ya debe estar loggeado lo siguiente: 
+                                    Customer record, case contact, affected product, trigger questions.
+                                </label>
+                            </li>
                         </td>
                     </div>
                 </tr>
-                <tr>
+
+                <tr class="filas">
+                    <div id="expectations">
+                        <td class="columna1">
+                            <h1>SET EXPECTATIONS</h1>
+                            <h4>(5-6min) El momento en el que le das una expectativa clara de lo que puede pasar con su caso</h4>
+                        </td>
+                        <td class="columna2">
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q6Radio1" value="1"> 
+                                     WHAT, WHY, HOW AND RESULT - Analogies
+                                </label>
+                            </li>
+                        </td>
+                    </div>
+                </tr>
+
+                <tr class="filas">
+                    <div id="troubleshooting">
+                        <td class="columna1">
+                            <h1>TROUBLESHOOTING</h1>
+                            <h4>(6-8min)</h4>
+                        </td>
+                        <td class="columna2">
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q7Radio1" value="1"> 
+                                     Esta parte siempre depende del inconveniente y
+                                     se requiere de ciertas herramientas y atención
+                                     del cliente, también se requiere posicionar en
+                                     los casos en los cuales hayan pasos que consuman
+                                     más de 15 minutos en línea.
+                                </label>
+                            </li>
+                        </td>
+                    </div>
+                </tr>
+
+                <tr class="filas">
                     <div id="recap">
-                        <td>
-                            <h1>Recap</h1>
-                            <h4>Explicale lo que hiciste por el</h4>
+                        <td class="columna1">
+                            <h1>RECAP</h1>
+                            <h4>(El final) El momento en el que explicas todo lo que hiciste por el cliente</h4>
                         </td>
-                        <td>
-                            <select name="select">
-                                <option value="value1">Value 1</option>
-                                <option value="value2">Value 2</option>
-                                <option value="value3">Value 3</option>
-                            </select>
-                        </td>
-                        <td>
-                            <div class="definition">
-                                <input type="text" name="" id="">
-                            </div>
+                        <td class="columna2">
+                            <li class="list">
+                                <label>
+                                    <input type="radio" name="q8Radio1" value="1"> 
+                                    Fue un placer ayudarte, a cambiar tu contraseña para que bajes tus aplicaciones
+                                    Recuerda que el día de hoy hablaste con (TU NOMBRE)
+                                    A tu correo voy a enviar un guía interactiva con los pasos que realizamos y el numero de caso sobre nuestra interacción telefónica.
+                                    Gracias por comunicarte con el soporte técnico de Apple
+                                </label>
+                            </li>
                         </td>
                     </div>
-                </tr> -->
+                </tr>
+
+
             </form>
         </table>
     </div>
