@@ -52,7 +52,7 @@
     width: 100%;
 }
 .fullMenu li{
-        font-family: 'Vollkorn', serif;
+    font-family: 'Vollkorn', serif;
     font-size: 45px;
     text-align: center;
     text-decoration: none;
@@ -110,11 +110,15 @@ a:hover{
 
 /*------------Table Callflow---------------*/
 .tableCallflow{
-    display: block;
+    display: flex;
     grid-column: 1 / 6;
     grid-row: 2 / 11;
     border-collapse: collapse;
     height: 80vh;
+    width: 100%;
+    justify-content: left;
+    align-items: baseline;
+
 }
 .tr , td{
     border: black 5px solid;
@@ -123,6 +127,22 @@ a:hover{
     width: 40px;
     margin: 0;
 }
- select{
+.columna1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    width: 30rem;
+    background: white;
+    text-align: center;
+}
+.columna2{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+    width: 70rem;
+    background: black;
+    color: white;
+    height: 100vh;
+}
+
+/*  select{
     grid-column: 2 / 4;
-} 
+}  */
