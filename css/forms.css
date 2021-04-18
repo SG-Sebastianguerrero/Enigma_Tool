@@ -27,23 +27,33 @@
     grid-column: 3 / 6;
     grid-row: 4 / 10;
     width: 100%;
-    height: 100vh;
+    height: 99vh;
 }
 .formSurvey{
     display: flex;
     grid-column: 1 / 3;
-    grid-row: 2 / 4;
+    grid-row: 4 / 7;
     width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
-.calendar{
+/* .calendar{
     grid-column: 1 / 3;
     grid-row: 6 / 11;
     background: black;
     width: 100%;
     height: 100%;
+} */
+body{
+     background-image: url(../assets/hero.jpg); 
+
+     background-size: 100% 100%;
+    /* background-image: linear-gradient(to right top, #051937, #123460, #1b528c, #1e73ba, #1296eb); */
+    /* background-image: linear-gradient(to bottom, #264c55, #264c55, #264c55, #264c55, #264c55, #254a54, #254852, #244651, #23414d, #223c4a, #223845, #213341);
+ */}
+.iframe{
+    height: 86vh;
 }
 /*---------ANIMATION MENU-----------------*/
 
