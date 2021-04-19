@@ -37,6 +37,8 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    padding: 100px 32px 32px 32px;
+
 }
 /* .calendar{
     grid-column: 1 / 3;
@@ -53,7 +55,7 @@ body{
     /* background-image: linear-gradient(to bottom, #264c55, #264c55, #264c55, #264c55, #264c55, #254a54, #254852, #244651, #23414d, #223c4a, #223845, #213341);
  */}
 .iframe{
-    height: 86vh;
+    height: 85%;
 }
 /*---------ANIMATION MENU-----------------*/
 
@@ -139,4 +141,35 @@ a:hover{
     background-repeat: no-repeat;
     /* background-size: 660px; */
     background-size: cover;
+}
+/*-----------FORM STYLES----------*/
+
+.form{
+    width: 440px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: rgba(0,0,0,.55);
+    color: #fff;
+    padding: 32px;
+    height: 90%;
+}
+#nDocument{
+    border-radius: .25rem;
+    max-width: 20rem;
+    background-color: #192038;
+    border: 1px solid rgb(16, 20, 38);
+    color: #fff;
+    padding: 7px 16px;
+    height: 35px;
+}
+#formButton{
+    background-color: rgba(143,155,179,.24);
+    border-color: rgba(143,155,179,.24);
+    color: rgba(143,155,179,.48);
+    padding: .6875rem 1.125rem;
+}
+.Survey{
+    display: grid;
+    align-items: center;
+    height: 100%;
 }
