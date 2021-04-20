@@ -159,6 +159,8 @@ a:hover{
     background-color: #192038;
     border: 1px solid rgb(16, 20, 38);
     color: #fff;
+    font-weight:bold;
+    font-weight: 800;
     padding: 7px 16px;
     height: 35px;
 }
